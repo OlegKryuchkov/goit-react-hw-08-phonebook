@@ -1,0 +1,34 @@
+.contacts_update_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 350px;
+    border-radius: 10px;
+    background: linear-gradient(120deg, #8c8c8c, #90bfd7);
+    box-shadow: 5px 5px 5px #8b8b8b, -14px -14px 23px #ffffff;
+    padding: 20px 20px;
+}
+
+.contacts_update_label {
+    color: #ffffff;
+}
+
+.contacts_update_button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #4f0087;
+    background-color: white;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.contacts_update_button:hover,
+.contacts_update_button:focus {
+    border: 1px solid rgb(141, 39, 224);
+    font-weight: bold;
+    transition: background-color 0.5s;
+}

@@ -1,0 +1,35 @@
+.phonebook_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 350px;
+    border-radius: 10px;
+    background: linear-gradient(120deg, #8c8c8c, #90bfd7);
+    box-shadow: 5px 5px 5px #8b8b8b;
+    padding: 30px 20px;
+}
+
+.phonebook_label {
+    color: #ffffff;
+}
+
+.phonebook_submit_btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #4f0087;
+    background-color: white;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.phonebook_submit_btn:hover,
+.phonebook_submit_btn:focus {
+    border: 1px solid rgb(82, 67, 193);
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
